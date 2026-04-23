@@ -3,7 +3,7 @@
 ## 👨‍💻 CyberSecurity Projects:
 
 - **Active Directory Home Lab**
-  - [Active Directory Home Lab (Azure)](https://docs.google.com/document/d/1yrocOnVZK-u_HkJu0cA2l_Vb7wP3In6xD8ztYPKblik/edit) - Built a sandbox environment in Azure to simulate a corporate network, focusing on user management and security policies.
+  - [Active Directory Home Lab (Azure)]( https://github.com/brandonbellamy400-maker/-active-directory-lab) - Built a sandbox environment in Azure to simulate a corporate network, focusing on user management and security policies.
 
 - **Security Operations & Monitoring**
   - [Detection Lab & SIEM (Microsoft Sentinel)](https://docs.google.com/document/d/1yrocOnVZK-u_HkJu0cA2l_Vb7wP3In6xD8ztYPKblik/edit) - Set up a SIEM to monitor live RDP brute-force attacks, using PowerShell to map attacker geolocation data.

@@ -12,9 +12,7 @@
   - [Microsoft Entra Security Administrator Role Activation](https://github.com/brandonbellamy400-maker/entra-pim-lab)
   - Managed privileged access by configuring **Security Administrator** as an eligible role. Demonstrated the activation workflow, including justification requirements and time-bound access, to reduce the attack surface of the BRANDONTECH tenant.
   - Managed privileged access by configuring **Security Administrator** as an eligible role. Demonstrated the activation workflow, including justification requirements and time-bound access, to reduce the attack surface of the tenant.
-- **Networking & Defense**
-  - [Network Traffic Analysis (Wireshark)](https://docs.google.com/document/d/1yrocOnVZK-u_HkJu0cA2l_Vb7wP3In6xD8ztYPKblik/edit) - Analyzed various network protocols (ICMP, SSH, DHCP) to understand traffic patterns and identify potential anomalies.
-
+ 
 ---
 
 ## 🛠️ Skills:

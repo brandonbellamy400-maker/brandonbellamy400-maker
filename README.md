@@ -8,9 +8,9 @@
 -   - ** Identity & Access Management (IAM) **
     - [Microsoft Entra Conditional Access Policy Implementation](https://github.com/brandonbellamy400-maker/-entra-conditional-access-lab)
     - Configured and deployed a Zero Trust security policy (**CA-Guest-All-APPS-Req-MFA**) to enforce Multi-Factor Authentication (MFA) for all guest users accessing organizational resources, mitigating unauthorized access risks.
-- **Vulnerability Management**
-  - [Nessus Vulnerability Management](https://docs.google.com/document/d/1yrocOnVZK-u_HkJu0cA2l_Vb7wP3In6xD8ztYPKblik/edit) - Performed credentialed scans on intentionally vulnerable VMs to identify, prioritize, and remediate security risks.
-
+-  - **Privileged Identity Management (PIM)**
+  - [Microsoft Entra Security Administrator Role Activation](https://github.com/brandonbellamy400-maker/-your-repo-name-here)
+  - Managed privileged access by configuring **Security Administrator** as an eligible role. Demonstrated the activation workflow, including justification requirements and time-bound access, to reduce the attack surface of the tenant.
 - **Networking & Defense**
   - [Network Traffic Analysis (Wireshark)](https://docs.google.com/document/d/1yrocOnVZK-u_HkJu0cA2l_Vb7wP3In6xD8ztYPKblik/edit) - Analyzed various network protocols (ICMP, SSH, DHCP) to understand traffic patterns and identify potential anomalies.
 

@@ -25,7 +25,10 @@
 ---
 
 ## 👨‍💻 CyberSecurity & Identity Projects
-
+### 📊 [Microsoft Sentinel SIEM & Identity Threat Hunting Lab](https://github.com/brandonbellamy400-maker/microsoft-sentinel-threat-hunting)
+* **Objective:** Streamed Microsoft Entra ID diagnostic data to a centralized Log Analytics Workspace to detect and analyze identity-based attacks.
+* **Impact:** Engineered custom KQL (Kusto Query Language) hunting queries to isolate and aggregate credential-stuffing and brute-force patterns (ResultType `50126`), exposing malicious actor IPs before initial access was achieved.
+* **Skills Verified:** SIEM Management, Log Ingestion Pipelines, KQL Threat Hunting, Incident Response.
 ### 🛡️ [Entra ID: Zero Trust Guest Access Implementation](https://github.com/brandonbellamy400-maker/-entra-conditional-access-lab)
 * **Objective:** Enforced a robust Zero Trust framework by deploying a specialized security policy (`CA-Guest-All-APPS-Req-MFA`).
 * **Impact:** Mitigated unauthorized access risks by demanding mandatory Multi-Factor Authentication (MFA) for all guest identities trying to access internal organizational resources.

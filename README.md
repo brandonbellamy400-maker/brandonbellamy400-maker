@@ -1,29 +1,51 @@
-   <h1>Hi, I'm Brandon!</h1>
+  # Hi, I'm Brandon! 👋
 
-## 👨‍💻 CyberSecurity Projects:
+## 🏆 Certifications
+* **[Microsoft Certified: Identity and Access Administrator Associate (SC-300)](https://learn.microsoft.com/en-us/users/brandonbellamy-9512/credentials/certification/identity-and-access-administrator?tab=credentials-tab)** * *Credential ID: E222246BBE6606E5 | Active (Earned: May 20, 2026)*
 
-- **Active Directory Home Lab**
-  - [Active Directory Home Lab (Azure)]( https://github.com/brandonbellamy400-maker/-active-directory-lab) - Built a sandbox environment in Azure to simulate a corporate network, focusing on user management and security policies.
+---
 
--   - ** Identity & Access Management (IAM) **
-    - [Microsoft Entra Conditional Access Policy Implementation](https://github.com/brandonbellamy400-maker/-entra-conditional-access-lab)
-    - Configured and deployed a Zero Trust security policy (**CA-Guest-All-APPS-Req-MFA**) to enforce Multi-Factor Authentication (MFA) for all guest users accessing organizational resources, mitigating unauthorized access risks.
--  - - **Privileged Identity Management (PIM)**
-  - [Microsoft Entra Security Administrator Role Activation](https://github.com/brandonbellamy400-maker/entra-pim-lab)
-  - Managed privileged access by configuring **Security Administrator** as an eligible role. Demonstrated the activation workflow, including justification requirements and time-bound access, to reduce the attack surface of the BRANDONTECH tenant.
-  - Managed privileged access by configuring **Security Administrator** as an eligible role. Demonstrated the activation workflow, including justification requirements and time-bound access, to reduce the attack surface of the tenant.
+## 🛠️ Technical Skills (SC-300 Aligned)
+
+### 🔑 Identity & Access Management
+* **User & Group Management:** Designing and deploying hybrid identity architectures, managing external collaboration settings, and configuring administrative units.
+* **Authentication & Access:** Deploying Multi-Factor Authentication (MFA), passwordless authentication methods, self-service password reset (SSPR), and smart lockout features.
+* **Conditional Access:** Building context-aware, Zero Trust security policies to restrict or permit access based on user, risk level, device compliance, and location.
+
+### 🛡️ Identity Governance & Workload Security
+* **Privileged Identity Management (PIM):** Configuring just-in-time (JIT) role activation, step-up authentication workflows, and approval requirements to reduce the attack surface.
+* **Identity Governance:** Managing access reviews, designing entitlement management access packages, and setting up lifecycle workflows.
+* **Workload Identities:** Securing application registrations, service principals, and managed identities within Microsoft Entra ID.
+
+### 📊 Security Operations & Automation
+* **SIEM/XDR Monitoring:** Configuring Microsoft Sentinel and Microsoft Entra ID Protection to monitor user risk and sign-in risk alerts.
+* **Log Analysis & Auditing:** Querying logs using KQL (Kusto Query Language) to trace unauthorized access attempts and security misconfigurations.
+* **Automation:** Writing PowerShell scripts for bulk identity creation, security policy deployment, and automated compliance auditing.
+
+---
+
+## 👨‍💻 CyberSecurity & Identity Projects
+
+### 🛡️ [Entra ID: Zero Trust Guest Access Implementation](https://github.com/brandonbellamy400-maker/-entra-conditional-access-lab)
+* **Objective:** Enforced a robust Zero Trust framework by deploying a specialized security policy (`CA-Guest-All-APPS-Req-MFA`).
+* **Impact:** Mitigated unauthorized access risks by demanding mandatory Multi-Factor Authentication (MFA) for all guest identities trying to access internal organizational resources.
+* **Skills Verified:** Conditional Access, Grant Controls, Sign-in Log Analysis, Zero Trust Architecture.
+
+### 🔐 [Entra ID: Implementing Privileged Identity Management (PIM)](https://github.com/brandonbellamy400-maker/entra-pim-lab)
+* **Objective:** Moved away from high-privilege permanent role assignments in the BRANDONTECH environment toward a Zero Trust model using Just-In-Time (JIT) access.
+* **Impact:** Transformed standing administrative roles (like Security Administrator) into time-bound, eligible assignments requiring explicit MFA verification and justification logging, drastically shrinking the tenant's attack surface.
+* **Skills Verified:** Privileged Identity Management (PIM), Just-In-Time (JIT) Access, Identity Governance, Audit Logging & Compliance.
+
+### 🔑 [Active Directory Home Lab (Azure)](https://github.com/brandonbellamy400-maker/-active-directory-lab)
+* **Objective:** Built a scalable sandbox infrastructure inside Microsoft Azure to simulate a modern corporate directory infrastructure.
+* **Impact:** Created a secure environment to test group policies, tenant syncing, and local-to-cloud security mapping using PowerShell automation for bulk user simulation.
+* **Skills Verified:** Active Directory Domain Services (AD DS), Virtual Networks (VNets), PowerShell Automation, IAM Fundamentals.
+
+---
+
+## 🤳 Connect with me:
+[![Brandon Bellamy | LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brandon-bellamy-3689803b8/)
  
----
 
-## 🛠️ Skills:
-
-- **Security Operations:** SIEM (Microsoft Sentinel), Log Analysis, KQL (Kusto Query Language), Incident Response.
-- **Vulnerability Management:** Tenable Nessus, Remediation Strategies, Asset Discovery.
-- **Network Security:** Wireshark, Protocol Analysis (TCP/IP, DNS, HTTP), Network Defense.
-- **Cloud & Systems:** Microsoft Azure, Active Directory (AD), Virtualization (VMware/VirtualBox), PowerShell Scripting.
-
----
- ## 🤳 Connect with me:
-
-[<img align="left" alt="Brandon Bellamy | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />](https://www.linkedin.com/in/brandon-bellamy-3689803b8/)
-<br />
+ 
+ 

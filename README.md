@@ -1,8 +1,9 @@
   # Hi, I'm Brandon! 👋
 
 ## 🏆 Certifications
-* **[Microsoft Certified: Identity and Access Administrator Associate (SC-300)](https://learn.microsoft.com/en-us/users/brandonbellamy-9512/credentials/certification/identity-and-access-administrator?tab=credentials-tab)** * *Credential ID: E222246BBE6606E5 | Active (Earned: May 20, 2026)*
+ 
 
+* **[Microsoft Certified: Identity and Access Administrator Associate (SC-300)](https://learn.microsoft.com/api/credentials/share/en-us/BrandonBellamy-9512/E222246BBE6606E5?sharingId=B679C7FBE6A42B51)** * *Credential ID: E222246BBE6606E5 | Active (Earned: May 20, 2026)*
 ---
 
 ## 🛠️ Technical Skills (SC-300 Aligned)

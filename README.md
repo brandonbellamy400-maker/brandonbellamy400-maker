@@ -6,22 +6,21 @@
 * **[Microsoft Certified: Identity and Access Administrator Associate (SC-300)](https://learn.microsoft.com/api/credentials/share/en-us/BrandonBellamy-9512/E222246BBE6606E5?sharingId=B679C7FBE6A42B51)** * *Credential ID: E222246BBE6606E5 | Active (Earned: May 20, 2026)*
 ---
 
-## 🛠️ Technical Skills (SC-300 Aligned)
+ ## 🛠️ Identity & Access Management (IAM) Skill Stack
 
-### 🔑 Identity & Access Management
-* **User & Group Management:** Designing and deploying hybrid identity architectures, managing external collaboration settings, and configuring administrative units.
-* **Authentication & Access:** Deploying Multi-Factor Authentication (MFA), passwordless authentication methods, self-service password reset (SSPR), and smart lockout features.
-* **Conditional Access:** Building context-aware, Zero Trust security policies to restrict or permit access based on user, risk level, device compliance, and location.
+ ### 🔑 Identity & Access Management
+* **Directory Administration:** Designing and deploying Active Directory Domain Services (AD DS) within Azure Virtual Networks, configuring Organizational Units (OUs), and automating bulk user provisioning via PowerShell scripts.
+* **Modern Authentication:** Enforcing tenant-wide Multi-Factor Authentication (MFA), passwordless methods, and managing external collaboration structures for B2B/Guest identities.
+* **Conditional Access Architecture:** Engineering context-aware Zero Trust security policies—specifically deploying and testing `CA-Guest-All-APPS-Req-MFA` to restrict resource access based on identity risk and platform signals.
+ ### 🛡️ Identity Governance & Workload Security
+* **Lifecycle Workflows & Automation:** Engineering automated joiner-mover-leaver (JML) processes using Microsoft Entra ID Lifecycle Workflows; configuring event-driven triggers and custom task execution to manage identity lifecycles at scale.
+* **API Orchestration & Serverless Integration:** Integrating native governance workflows with serverless Azure Logic Apps using secure webhooks; formulating custom expressions to parse JSON payloads and execute targeted actions.
+* **Privileged Identity Management (PIM):** Enforcing a Zero Trust least-privilege posture by configuring time-bound Just-In-Time (JIT) role activations, mandatory multi-factor authentication (MFA) step-up challenges, and justification auditing for high-privilege roles.
 
-### 🛡️ Identity Governance & Workload Security
-* **Privileged Identity Management (PIM):** Configuring just-in-time (JIT) role activation, step-up authentication workflows, and approval requirements to reduce the attack surface.
-* **Identity Governance:** Managing access reviews, designing entitlement management access packages, and setting up lifecycle workflows.
-* **Workload Identities:** Securing application registrations, service principals, and managed identities within Microsoft Entra ID.
-
-### 📊 Security Operations & Automation
-* **SIEM/XDR Monitoring:** Configuring Microsoft Sentinel and Microsoft Entra ID Protection to monitor user risk and sign-in risk alerts.
-* **Log Analysis & Auditing:** Querying logs using KQL (Kusto Query Language) to trace unauthorized access attempts and security misconfigurations.
-* **Automation:** Writing PowerShell scripts for bulk identity creation, security policy deployment, and automated compliance auditing.
+ ### 📊 Security Operations & Automation
+* **SIEM Pipeline Engineering:** Configuring diagnostic log-streaming pipelines from Microsoft Entra ID into centralized Log Analytics Workspaces to establish full visibility over identity infrastructure.
+* **KQL Threat Hunting:** Engineering custom Kusto Query Language (KQL) scripts to monitor identity risk tiers and analyze sign-in logs, specifically isolating password-validation errors (ResultType `50126`) to identify active brute-force or credential-stuffing strings.
+* **Directory Automation:** Utilizing PowerShell scripting to automate bulk identity provisioning within sandbox infrastructure, deploy standardized security policies, and extract audit logs for administrative compliance reviews.
 
 ---
 

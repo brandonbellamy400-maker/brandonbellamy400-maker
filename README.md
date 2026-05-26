@@ -6,21 +6,21 @@
 * **[Microsoft Certified: Identity and Access Administrator Associate (SC-300)](https://learn.microsoft.com/api/credentials/share/en-us/BrandonBellamy-9512/E222246BBE6606E5?sharingId=B679C7FBE6A42B51)** * *Credential ID: E222246BBE6606E5 | Active (Earned: May 20, 2026)*
 ---
 
- ## 🛠️ Identity & Access Management (IAM) Skill Stack
+  ## 🛠️ Identity & Access Management (IAM) Skill Stack
 
- ### 🔑 Identity & Access Management
-* **Directory Administration:** Designing and deploying Active Directory Domain Services (AD DS) within Azure Virtual Networks, configuring Organizational Units (OUs), and automating bulk user provisioning via PowerShell scripts.
-* **Modern Authentication:** Enforcing tenant-wide Multi-Factor Authentication (MFA), passwordless methods, and managing external collaboration structures for B2B/Guest identities.
-* **Conditional Access Architecture:** Engineering context-aware Zero Trust security policies—specifically deploying and testing `CA-Guest-All-APPS-Req-MFA` to restrict resource access based on identity risk and platform signals.
- ### 🛡️ Identity Governance & Workload Security
-* **Lifecycle Workflows & Automation:** Engineering automated joiner-mover-leaver (JML) processes using Microsoft Entra ID Lifecycle Workflows; configuring event-driven triggers and custom task execution to manage identity lifecycles at scale.
-* **API Orchestration & Serverless Integration:** Integrating native governance workflows with serverless Azure Logic Apps using secure webhooks; formulating custom expressions to parse JSON payloads and execute targeted actions.
-* **Privileged Identity Management (PIM):** Enforcing a Zero Trust least-privilege posture by configuring time-bound Just-In-Time (JIT) role activations, mandatory multi-factor authentication (MFA) step-up challenges, and justification auditing for high-privilege roles.
+### 🆔 Identity Governance & Zero Trust Architecture (IGA)
+* **Lifecycle Workflows & Automated Provisioning:** Designing and deploying automated Joiner-Mover-Leaver (JML) pipelines within Microsoft Entra ID to orchestrate secure employee lifecycle transitions at scale. *(Implemented in: Automated Identity Governance Lab)*
+* **API Orchestration & Serverless Integration:** Integrating native identity governance frameworks with serverless Azure Logic Apps via secure webhooks; formulating custom expressions to parse JSON payloads and programmatically query the Microsoft Graph API. *(Implemented in: Automated Identity Governance Lab)*
+* **Privileged Identity Management (PIM):** Engineering a Zero Trust, least-privilege posture by configuring time-bound Just-In-Time (JIT) role activations, mandatory MFA step-up challenges, and justification auditing for high-privilege directory roles. *(Implemented in: Entra ID PIM Project)*
+* **Conditional Access Architecture:** Designing context-aware Zero Trust security policies—specifically deploying and testing `CA-Guest-All-APPS-Req-MFA` to restrict corporate resource access based on identity risk and platform signals. *(Implemented in: Entra ID Guest Access Project)*
 
- ### 📊 Security Operations & Automation
-* **SIEM Pipeline Engineering:** Configuring diagnostic log-streaming pipelines from Microsoft Entra ID into centralized Log Analytics Workspaces to establish full visibility over identity infrastructure.
-* **KQL Threat Hunting:** Engineering custom Kusto Query Language (KQL) scripts to monitor identity risk tiers and analyze sign-in logs, specifically isolating password-validation errors (ResultType `50126`) to identify active brute-force or credential-stuffing strings.
-* **Directory Automation:** Utilizing PowerShell scripting to automate bulk identity provisioning within sandbox infrastructure, deploy standardized security policies, and extract audit logs for administrative compliance reviews.
+### 📊 Cloud Security Operations & Threat Hunting
+* **SIEM Pipeline Engineering:** Configuring diagnostic log-streaming pipelines from Microsoft Entra ID into centralized Log Analytics Workspaces to establish full tenant visibility. *(Implemented in: Microsoft Sentinel SIEM Project)*
+* **KQL Threat Hunting:** Engineering custom Kusto Query Language (KQL) scripts to monitor identity risk tiers and analyze sign-in logs, specifically isolating password-validation errors (ResultType `50126`) to detect brute-force or credential-stuffing strings. *(Implemented in: Microsoft Sentinel SIEM Project)*
+
+### 🔑 Core Identity Infrastructure & Technical Support Operations
+* **Directory Administration & Hybrid Sync:** Designing Active Directory Domain Services (AD DS) structures, configuring Organizational Units (OUs), utilizing PowerShell scripting to automate bulk identity provisioning, and managing hybrid identity synchronization via Entra ID Connect.
+* **ITSM & Support Operations Automation:** Utilizing Zendesk enterprise sandboxes to manage, document, and resolve complex technical support lifecycles; designing automated macros to streamline high-volume identity workflows (MFA registration, password resets) while strictly enforcing organizational SLAs.
 
 ---
 

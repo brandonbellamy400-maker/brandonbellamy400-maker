@@ -9,11 +9,17 @@
   ## 🛠️ Identity & Access Management (IAM) Skill Stack
 
 ### 🆔 Identity Governance & Zero Trust Architecture (IGA)
-* **Lifecycle Workflows & Automated Provisioning:** Designing and deploying automated Joiner-Mover-Leaver (JML) pipelines within Microsoft Entra ID to orchestrate secure employee lifecycle transitions at scale. *(Implemented in: Automated Identity Governance Lab)*
-* **API Orchestration & Serverless Integration:** Integrating native identity governance frameworks with serverless Azure Logic Apps via secure webhooks; formulating custom expressions to parse JSON payloads and programmatically query the Microsoft Graph API. *(Implemented in: Automated Identity Governance Lab)*
+* **Lifecycle Workflows & Automated Provisioning:** Designing and deploying automated Joiner-Mover-Leaver (JML) pipelines within Microsoft Entra ID to orchestrate secure employee lifecycle transitions at scale. *(Implemented in: Automated Identity Governance Technical project)*
+* **API Orchestration & Serverless Integration:** Integrating native identity governance frameworks with serverless Azure Logic Apps via secure webhooks; formulating custom expressions to parse JSON payloads and programmatically query the Microsoft Graph API. *(Implemented in: Automated Identity Governance Technical Project)*
 * **Privileged Identity Management (PIM):** Engineering a Zero Trust, least-privilege posture by configuring time-bound Just-In-Time (JIT) role activations, mandatory MFA step-up challenges, and justification auditing for high-privilege directory roles. *(Implemented in: Entra ID PIM Project)*
 * **Conditional Access Architecture:** Designing context-aware Zero Trust security policies—specifically deploying and testing `CA-Guest-All-APPS-Req-MFA` to restrict corporate resource access based on identity risk and platform signals. *(Implemented in: Entra ID Guest Access Project)*
-
+### ⚙️ Identity-as-Code (IaC) & DevSecOps Automation
+* **Declarative Identity Provisioning:** Codifying enterprise Microsoft Entra ID infrastructure using Terraform to eliminate manual configuration drift and enforce version-controlled state management.
+  * *(Implemented in: Enterprise Identity-as-Code & GitOps Pipeline Automation)*
+* **Secure CI/CD Pipeline Engineering:** Architecting automated GitHub Actions workflows to validate directory modifications via Pull Requests and programmatically execute deployments upon approved merges.
+  * *(Implemented in: Enterprise Identity-as-Code & GitOps Pipeline Automation)*
+* **Passwordless Authentication & OIDC:** Establishing secure, cryptographic OpenID Connect (OIDC) federation trust between external automation platforms (GitHub Actions) and Azure/Entra ID to completely eliminate static client secret leaks.
+  * *(Implemented in: Enterprise Identity-as-Code & GitOps Pipeline Automation)*
 ### 📊 Cloud Security Operations & Threat Hunting
 * **SIEM Pipeline Engineering:** Configuring diagnostic log-streaming pipelines from Microsoft Entra ID into centralized Log Analytics Workspaces to establish full tenant visibility. *(Implemented in: Microsoft Sentinel SIEM Project)*
 * **KQL Threat Hunting:** Engineering custom Kusto Query Language (KQL) scripts to monitor identity risk tiers and analyze sign-in logs, specifically isolating password-validation errors (ResultType `50126`) to detect brute-force or credential-stuffing strings. *(Implemented in: Microsoft Sentinel SIEM Project)*

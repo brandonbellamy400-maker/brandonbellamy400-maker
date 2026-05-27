@@ -25,7 +25,11 @@
 ---
 
  ## 👨‍💻 Enterprise Identity & Access Management (IAM) Projects
-
+### 🆔 [Enterprise Identity-as-Code & GitOps Pipeline Automation](https://github.com/brandonbellamy400-maker/entra-id-gitops)
+**Tech Stack:** `Terraform` | `GitHub Actions` | `OpenID Connect (OIDC)` | `Microsoft Entra ID` | `Azure DevSecOps`
+* **Objective:** Designed and deployed a declarative, zero-trust GitOps automation pipeline to completely codify enterprise identity infrastructure and eliminate manual configuration drift.
+* **Impact:** Established a secure, passwordless OpenID Connect (OIDC) cryptographic federation trust between GitHub Actions and Microsoft Entra ID. Engineered a multi-stage CI/CD pipeline that validates configurations via pull requests and applies directory modifications automatically upon approved merges, eliminating the risk of static client secret leaks.
+* **Skills Verified:** Identity-as-Code (IaC), DevSecOps Pipelines, Zero-Trust Architecture, Microsoft Graph API Scoping, Secure State Management.
   ### 🆔 [Automated Identity Governance & API Orchestration technical project](https://github.com/brandonbellamy400-maker/entra-lifecycle-workflows-automation)
 **Tech Stack:** `Entra ID Lifecycle Workflows` | `Azure Logic Apps` | `Microsoft Graph API` | `JSON Automation`
 * **Objective:** Engineered an event-driven Identity Governance and Administration (IGA) pipeline to eliminate the security exposure window during employee termination cycles.

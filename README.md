@@ -78,7 +78,7 @@
 ---
 
 ## 🤳 Connect with me:
-[![Brandon Bellamy | LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brandon-bellamy-3689803b8/)
+[![Brandon Bellamy | LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brandonbellamyiam/)
  
 
  

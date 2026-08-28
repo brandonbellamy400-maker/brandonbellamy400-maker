@@ -44,6 +44,15 @@
 
 ---
 
+### 🆔 [Azure RBAC Least-Privilege Lab](https://github.com/brandonbellamy400-maker/azure-rbac-least-privilege-lab)
+
+**Tech Stack:** `Azure RBAC` | `Azure CLI` | `Microsoft Entra ID` | `JSON`
+
+- **Objective:** Designed and deployed a custom Azure RBAC role scoped to the minimum permissions required for a read-only storage access use case, authored entirely as code rather than configured through the portal.
+- **Impact:** Defined a granular custom role via JSON and Azure CLI, assigned it to a test identity, and validated enforcement directly from that user's live session — confirming no implicit access existed beyond what was explicitly granted.
+- **Skills Verified:** Custom RBAC Role Authoring, Least-Privilege Access Design, Azure CLI, Role Assignment Scoping, Access Enforcement Validation.
+
+
   ### 📊 [Microsoft Sentinel SIEM & Identity Threat Hunting Project](https://github.com/brandonbellamy400-maker/microsoft-sentinel-threat-hunting)
 **Tech Stack:** `Microsoft Sentinel` | `Kusto Query Language (KQL)` | `Log Analytics` | `Entra ID Protection`
 
